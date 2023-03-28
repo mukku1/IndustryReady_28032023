@@ -6,3 +6,5 @@ gi remote -v - it will show the fetch and push of the remote.
 git branch - it will show the current branch.
 git git branch -M main - it will change the current branch to "main" branch.
 git restore --staged   - to restore the added git.
+git branch dev1  - to make a new branch and this branch will be having the copy of main branch.
+git checkout dev1 - to switch the branch.
