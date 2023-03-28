@@ -3,3 +3,5 @@ git add . - to add all the untracked file.
 git commit -m "commit message"  - to commit
 git push -u origin main - to push the code from origin to main (here GITHUB)
 gi remote -v - it will show the fetch and push of the remote.
+git branch - it will show the current branch
+git git branch -M main - it will change the current branch to "main" branch.
