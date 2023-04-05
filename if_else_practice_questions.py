@@ -198,3 +198,20 @@ if A>B and C>D:
     print("sahi hai beta")
 else:
     print("tosa na ho payga beta")
+
+
+
+
+## accept any city  from the user and display monument of that city 
+
+city = input("enter city")
+
+if city=="Delhi":
+    print("Red fort")
+elif city=="Agra":
+    print("Tajmahal")
+elif city=="Jaipur":
+    print("Jal mahal")
+
+else:
+    print("enter city from the required list")
