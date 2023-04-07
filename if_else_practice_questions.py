@@ -215,3 +215,5 @@ elif city=="Jaipur":
 
 else:
     print("enter city from the required list")
+
+

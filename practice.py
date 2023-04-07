@@ -35,3 +35,95 @@ elif op=="*":
   print(num1*num2)
 else:
   print((num1/num2)//10)
+
+
+
+
+import math
+math.factorial(5)
+
+
+
+import keyword
+
+keyword.kwlist   ### '''['False', 'None', 'True', '__peg_parser__', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']'''
+
+
+import random
+print(random.randint(1,10))
+
+
+import datetime
+print(datetime.datetime.now())
+
+
+
+
+
+num = int(input("enter number"))
+
+i = 1
+
+while i<=10:
+  print(num," x ",i," ", "=" ,num*i )
+  i+=1
+
+
+
+
+
+import random
+jackpot=random.randint(1,100)
+guess = int(input("enter number"))
+
+counter=1
+while guess!=jackpot:
+  if guess<jackpot:
+    print("guess higher")
+  else:
+    print("guess lower")
+  guess = int(input("enter number"))
+  counter+=1
+print("correct guess")
+print("gussed in ", counter,"th", "attempt")
+
+
+
+
+
+for i in range(1,11):
+  if i<=5:
+    print(i)
+  else:
+    print(i+100)
+
+
+
+
+
+
+for i in range(1,11,2):
+  print(i)
+
+
+
+
+
+for i in [1,2,3,4,5]:
+  x=print(i)
+  print(x)
+
+
+
+
+
+curr_pop=10000
+
+for i in range(1,10):
+  print(i, curr_pop)
+  curr_pop=curr_pop+0.1*curr_pop
+
+
+
+
+
