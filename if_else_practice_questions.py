@@ -215,3 +215,122 @@ elif city=="Jaipur":
 
 else:
     print("enter city from the required list")
+
+
+
+## check whether a entered number is 3 digit or not
+
+num = input("enter number")
+
+l = len(num)
+
+if l!=3:
+    print("wrong number")
+else:
+    print("3 digit number")
+
+
+
+
+## check person is eligible for voting or not 
+
+age = int(input("enter your age"))
+
+if age>=18:
+    print("you are eligible to vote")
+else:
+    print("you are not eligible to vote")
+
+
+
+
+
+##check whether the person is senior citizen or not 
+
+age = int(input("enter your age"))
+
+if age>=60:
+    print("you are senior citizen")
+else:
+    print("you are not senior citizen")
+
+
+
+## find the lowest number out of 2 numbers accepted from user
+
+num1 = int(input("enter num 1"))
+num2 = int(input("enter num 2"))
+
+if num1>num2:
+    print(num2)
+else:
+    print(num1)
+
+
+
+## whether a number accepted by user is divisible by 2 and 3 both
+
+num = int(input("enter number"))
+
+if num%2==0 and num%3==0:
+    print("divisible by 2 and 3 both")
+else:
+    print("not divisible")
+
+
+
+## prime number or not
+
+num = int(input("enter number"))
+
+i=2
+for i in range(2,num):
+  if num%i==0:
+    print("number is not prime")
+    i+=1
+    break
+else:
+  print("number is prime")
+
+
+
+## accept the number from the user and calculate the percentage and display eligibility for more than 75%
+
+working_days = int(input("enter total working days"))
+absent_days = int(input("enter total absent days"))
+
+class_attended = (working_days/(working_days+absent_days))*100
+
+class_attended_rate=format(class_attended,".2f")
+print(class_attended_rate)
+if class_attended>=75:
+  print("you are eligible to sit in exam")
+else:
+  print("you are not eligibel to sit in exam")
+
+
+
+
+## accept the age ,sex(M,F),number of days and display the wages accordingly
+
+age = int(input("enter age"))
+sex = input("enter sex")
+if age>=18 and age<30:
+    if sex=="M":
+        print("700 per day")
+    elif sex=="F":
+        print("750 per day")
+    else:
+        print("enter correct sex")
+elif age>=30 and age<=40:
+    if sex=="M":
+        print("800 per day")
+    elif sex=="F":
+        print("850 per day")
+    else:
+        print("enter correct sex")
+else:
+    print("enter age between 18 and 40")
+
+
+
