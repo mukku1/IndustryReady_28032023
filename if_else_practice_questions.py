@@ -331,6 +331,3 @@ elif age>=30 and age<=40:
         print("enter correct sex")
 else:
     print("enter age between 18 and 40")
-
-
-
